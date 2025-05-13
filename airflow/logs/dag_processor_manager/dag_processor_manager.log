@@ -1,0 +1,6 @@
+[2025-04-25T18:11:18.334+0700] {manager.py:470} INFO - Processing files using up to 1 processes at a time 
+[2025-04-25T18:11:18.334+0700] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2025-04-25T18:11:18.334+0700] {manager.py:472} INFO - Checking for new files in /home/thong/airflow/dags every 300 seconds
+[2025-04-25T18:11:18.334+0700] {manager.py:737} INFO - Searching for files in /home/thong/airflow/dags
+[2025-04-25T18:11:18.335+0700] {manager.py:740} INFO - There are 0 files in /home/thong/airflow/dags
+[2025-04-25T18:11:53.968+0700] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
