@@ -13,6 +13,7 @@ Trong dự án này, tôi sẽ tạo một hệ thống trích xuất, lưu tr�
   - [III. ERD](#iii-erd)
   - [IV. Star Schema](#iv-star-schema)
   - [V. ETL Architecture](#v-etl-architecture)
+  - [VI. Documentation](#vi-documentation)
 
 
 # A. Data Source And Design
@@ -251,5 +252,5 @@ Từ các file JSON trên ta trích xuất ra các bảng thông tin:
 <img src="images\ETL.png" alt="ETL">
 
 
-## Documentation
+## VI. Documentation
 Chi tiết: [Tài liệu chi tiết dự án](https://docs.google.com/document/d/1rj1pZ6Zu61apaygnmGbWQeC-5j3187Ix5GLYe2aVx9E/edit?usp=sharing)
