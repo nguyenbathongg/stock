@@ -252,4 +252,4 @@ Từ các file JSON trên ta trích xuất ra các bảng thông tin:
 
 
 ## Documentation
-Chi tiết: [text](https://docs.google.com/document/d/1rj1pZ6Zu61apaygnmGbWQeC-5j3187Ix5GLYe2aVx9E/edit?usp=sharing)
+Chi tiết: [Tài liệu chi tiết dự án](https://docs.google.com/document/d/1rj1pZ6Zu61apaygnmGbWQeC-5j3187Ix5GLYe2aVx9E/edit?usp=sharing)
