@@ -1,5 +1,5 @@
-<h1>Hello Guys</h1>
-In this project I will create an extraction, storage and BI system for stock data. The project will focus on the US stock market, I will expand other markets later, I hope you will accompany me.
+# Xin chào 
+Trong dự án này, tôi sẽ tạo một hệ thống trích xuất, lưu trữ và xử lý cho dữ liệu cổ phiếu. Dự án sẽ tập trung vào thị trường chứng khoán Mỹ, tôi sẽ mở rộng sang các thị trường khác sau, tôi hy vọng các bạn sẽ đồng hành cùng tôi.
 
 - [A. Data Source And Design](#a-data-source-and-design)
   - [I. API Detail](#i-api-detail)
