@@ -29,7 +29,7 @@ def save_json_to_parquet(data, output_filepath):
     # Convert json data to pyarrow table
     table = pa.Table.from_pandas(pd.DataFrame(data))
 
-    pa.write_table(table, output_filepath)
+    pq.write_table(table, output_filepath)
 
 def load_db_to_dl(input_directory, output_directory):
     """
@@ -59,14 +59,14 @@ def load_db_to_dl(input_directory, output_directory):
 
 # Convert News JSON files to Parquet
 # Path to the directory containing the JSON files
-input_directory = r'/home/anhcu/Project/Stock_project/elt/data/raw/news'
+input_directory = r'/home/thong/WorkSpace/Project/elt/data/raw/news'
 # Path to the directory to save the Parquet files
-output_directory = r'/home/anhcu/Project/Stock_project/elt/data/completed/load_api_news_to_dl'
+output_directory = r'/home/thong/WorkSpace/Project/elt/data/completed/load_api_news_to_dl'
 load_db_to_dl(input_directory, output_directory)
 
-# Convert OHLCs JSON files to Parquet
+# Convert OHLCv JSON files to Parquet
 # Path to the directory containing the JSON files
-input_directory = r'/home/anhcu/Project/Stock_project/elt/data/raw/ohlcs'
+input_directory = r'/home/thong/WorkSpace/Project/elt/data/raw/ohlcv'
 # Path to the directory to save the Parquet files
-output_directory = r'/home/anhcu/Project/Stock_project/elt/data/completed/load_api_ohlcs_to_dl'
+output_directory = r'/home/thong/WorkSpace/Project/elt/data/completed/load_api_ohlcv_to_dl'
 load_db_to_dl(input_directory, output_directory)
