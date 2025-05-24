@@ -248,7 +248,3 @@ Từ các file JSON trên ta trích xuất ra các bảng thông tin:
 
 ## V. ETL Architecture
 <img src="images\ETL.png" alt="ETL">
-
-## Documentation
-Chi tiết trong file: https://docs.google.com/document/d/1rj1pZ6Zu61apaygnmGbWQeC-5j3187Ix5GLYe2aVx9E/edit?usp=sharing
-
